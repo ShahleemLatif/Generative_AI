@@ -2,10 +2,10 @@
 
 This repository contains Python scripts for various AI and machine learning applications, including:
 
-1. **Image Background Swapping with SAM and Stable Diffusion**  
+1. **Fine-tuning and Evaluating a GPT-2 Model for Sentiment Classification with PEFT (LoRA)** 
 2. **Custom Chatbot with OpenAI Embeddings**  
-3. **Fine-tuning and Evaluating a GPT-2 Model for Sentiment Classification with PEFT (LoRA)**  
-4. **Real Estate Listing Generation and Personalized Search**
+3. **Image Background Swapping with SAM and Stable Diffusion**  
+4. **Real Estate Listing Generation and Personalized Search** 
 
 Each project is designed to be runnable within a Jupyter Notebook environment, with clear steps for setup, execution, and demonstration.
 
@@ -34,7 +34,7 @@ This project demonstrates how to build a web application that allows users to sw
 2. Install the required Python packages:  
    pip install Pillow requests transformers diffusers torch numpy
 
-3. Open and run the Untitled-1.py notebook in a Jupyter environment.  
+3. Open and run the Jupyter notebook files in a Jupyter environment.  
 4. Follow the instructions in the notebook to load the models, generate masks, perform inpainting, and launch the interactive app.
 
 ## **2\. Custom Chatbot with OpenAI Embeddings**
@@ -63,9 +63,9 @@ This project outlines the development of a custom chatbot that leverages OpenAI'
 2. Install the required Python packages:  
    pip install pandas tiktoken openai numpy
 
-3. Update the API\_KEY variable in Untitled-.py with your actual OpenAI API key.  
+3. Update the API\_KEY variable in Jupyter notebook files with your actual OpenAI API key.  
 4. Prepare your data in a CSV file (e.g., data/books\_rating.csv) with a designated text column (e.g., review/text).  
-5. Open and run the Untitled-.py notebook in a Jupyter environment.  
+5. Open and run the Jupyter notebook files in a Jupyter environment.  
 6. Execute the cells sequentially to load data, process embeddings, and interact with the chatbot.
 
 ## **3\. Fine-tuning and Evaluating a GPT-2 Model for Sentiment Classification with PEFT (LoRA)**
@@ -105,7 +105,7 @@ This project demonstrates the process of loading, evaluating, and fine-tuning a 
    pip install \-U datasets huggingface\_hub fsspec  
    pip install peft trl
 
-2. Open and run the Untitled-3.py notebook in a Jupyter environment.  
+2. Open and run the Jupyter notebook files in a Jupyter environment.  
 3. Execute the cells sequentially to load the dataset, tokenizer, model, perform baseline evaluation, apply LoRA fine-tuning, evaluate the fine-tuned model, and visualize results.
 
 ## **4\. Real Estate Listing Generation and Personalized Search**
